@@ -1,0 +1,209 @@
+body{
+    border:3px solid black ;
+    height: 170vh;
+}
+header{
+    border: 2px solid black;
+    margin: 3px;
+    height: 40px;
+}
+header div{
+    border: 1px solid brown;
+    margin: 3px;
+   /* height: 75px;*/
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    height: 20px;
+    margin: 5px;
+}
+#nav-list a{
+    border: 1px solid green;
+    margin: 2px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+header div div img{
+    height: 15px;
+    padding: 2px;
+}
+main{
+    border: 2px solid black;
+    height: 148vh;
+    margin: 3px;
+}
+section{
+    margin: 5px;
+    border: 1.5px solid black;
+    padding: 15px;
+    display: flex;
+    }
+   
+
+.section1 div
+{
+    margin: 5px;
+    border: 1px solid black;
+}
+
+ p, q
+{
+    margin: 2px;
+    border: 1px solid green;
+}
+
+.section1 div button
+{
+    margin: 0.5px;
+    border: 1px solid red;
+}
+h6
+{
+    margin: 1px;
+    border: 1px solid red;
+}
+
+h1
+{
+    margin: 0.5px;
+    border: 1px solid blue;
+}
+
+.multiple-blocks{
+    display: flex;
+}
+.multiple-blocks div img{
+    width: 40px;
+    margin: 0.5px;
+    border: 1px solid gold;
+}
+.multiple-blocks div {
+    border: 1px solid purple;
+}
+
+/*task 3*/
+#under-ban{
+    margin: 1px 200px;
+    border: 1px solid black;
+    padding: 5px;
+    width:200px;
+    display: block;
+    
+}
+#under-ban img{
+float: left;
+width: 20px;
+border: 1px solid green;
+}
+#under-ban div{
+    float: right;
+    border: 1px solid blue;
+    margin: 2px;
+    padding: 3px;
+    align-items: center;
+    }
+    /*video list*/
+    .videos{
+        border: 2px solid black;
+        display: block;
+    }
+    .videos h1{
+        margin-left: 250px;
+        justify-self: center;
+        width: fit-content;
+    }
+    .videos div{
+        border: 1px solid black;
+        margin: 3px 90px;
+        display: inline-block;
+    }
+    .videos div div{
+        border: 2px solid black;
+        margin: 1px;
+    }
+    .videos div div div{
+        display: flex;
+    }
+    /*membership*/
+    .membership{
+        border: 2px solid black;
+        display: block;
+    }
+    .membership h4{
+         border: 1px solid black;
+         width: 150px;
+         text-align: center;
+         margin-left: 250px;
+    }
+    .multi{
+        margin: 10px;
+        padding: 10px 50px;
+        border: 1px solid black;
+        display: flex;
+        width: 550px;
+        justify-content: center;
+    }
+    .multi div{
+        margin: 2px;
+        border: 1px solid black;
+        width: 150px;
+        text-align: center;
+    }
+    .membership button{
+        margin-left: 280px;
+        border: 2px solid gold;
+   }
+ .faq{
+    display: block;
+ }
+.faq h4{
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    margin-left: 250px;
+}
+.m1{
+    width: 250px;
+    display: flex;
+    border: 1px solid black;
+    margin-left: 200px;
+    justify-content: space-around;
+}
+.m1 div{
+    margin: 2px;
+    border: 1px solid black;
+    
+}
+.m1 p{
+    width: 100px;
+    text-align: center;
+}
+.rowblks{
+    display: blocks;
+}
+/*footer*/
+.ftrblk{
+    margin: 2px;
+    border: 2px solid black;
+    display: block;
+    width: 850px;
+}
+.ftrblk span{
+    margin-left: 280px;
+    border: 2px solid gold;
+}
+.blk2{
+    display: flex;
+    margin: 2px;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+.blk2 div{
+    display: flex;
+    margin: 2px;
+    border: 2px solid black;
+}
