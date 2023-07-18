@@ -6,12 +6,20 @@ main{
     display: flex;
     flex-direction: row;
     flex: auto;
+    border: 2px solid blue;
 }
 article{
     flex: 2;
     overflow-y: auto;
+    border: 1px solid gray;
+    margin: 3px;
 }
 aside{
     flex: 1;
     overflow-y: auto;
+    border: 1px solid violet;
+    margin: 3px;
+}
+span{
+    width: 300px;
 }
