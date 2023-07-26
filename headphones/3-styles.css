@@ -1,0 +1,197 @@
+
+body{
+    color: antiquewhite;
+    height: 300vh;
+}
+p{
+    font-size: small;
+}
+/* Begin Header*/
+header{
+    height: 30%;
+    width:100%;
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.headTop{
+    display: flex;
+    justify-content: space-around;
+}
+.headerLogo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end; 
+
+}
+.nav1 a{
+    color: antiquewhite;
+}
+.headMid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px; 
+    margin-left: 130px;
+    margin-right: 120px;
+    text-align: center;
+}
+.headMid h1{
+    margin-bottom: 0px;
+}
+.headMid p{
+    margin-top: 0px;
+}
+
+.headMid button, .contactForm button{
+    align-self: center;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(187, 99, 99);
+    border-radius: 2cm;
+    color: antiquewhite;
+    height: 40px ;
+    border-color: rgb(187, 99, 99);
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.headMid button:hover, .headMid button:active{
+    opacity: 0.9;
+}
+.nav1 a:hover, .nav1 a:hover{
+    color: #FF6565;
+}
+/* end Header*/
+/* Start---what we do Section*/
+.whatWeDo{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatWeDo div{
+    margin: 20px 120px;
+}
+.whatWeDo h2, .whatWeDo p{
+text-align: center;
+padding: 1px 80px;
+
+}
+.doIcons{
+    display: flex;
+    margin: 1px 40px;
+}
+
+.doIcons div{
+    width: 110px;
+    margin: 5px 30px;
+    padding: 1px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.doIcons p{
+    padding: 1px;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.doIcons h3{
+    padding: 1px;
+    font-size: 15px;
+}
+.doIcons img{
+    
+}
+/* End---what we do Section*/
+
+/* start---our results*/
+.results{
+    height: 500px;
+    width:100%;
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.results div, .results  h2{
+    margin: 80px 10px;
+}
+.results h2, .results p{
+text-align: center;
+padding: 10px 80px;
+
+}
+ .ratings{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    
+}
+.rate1
+{
+    margin: 10px 90px;
+    height: 250px;
+    width: 120px;
+    background-image: url(images/pentagone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.rate1 h4{
+    margin-top: 15px;
+       margin-bottom: 1px;
+       font-size: 40px;
+       width: 120px;
+}
+.rate1 p{
+    width: 100px;
+    padding-left: 6px;
+    margin-top: 1px;
+    font-size: x-small;
+}
+/* end---our results*/
+
+/* start---contact us*/
+.contactForm{
+color: black;
+margin: 30px 350px;
+height: 300px;
+}
+.contactForm h4{
+    text-align: center;
+}
+.contactForm button{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.contactForm div div{
+  margin-top: 30px;
+
+}
+svg{
+    stroke-width:2px;
+     stroke:hwb(240 13% 87% / 0.342);
+}
+input{
+    border:none;
+}
+
+/* start---contact us*/
+@media screen and (max-width: 480px) {
+    .flexContainer{
+        flex-wrap: wrap;
+    }
+}
